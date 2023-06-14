@@ -1,0 +1,32 @@
+
+.Homepage {
+  font-size: 16px;
+  line-height: 1.71;
+  color: #bfbfbf;
+}
+.For-participants {
+  font-size: 16px;
+  line-height: 1.71;
+  color: #343433;
+  font-weight: bold;
+}
+li{
+  display: inline-block;
+  /* text-transform: uppercase; */
+}
+ul li a{
+  /* color: #236dc5; */
+    padding: 0rem 1rem;
+    /*  */
+  font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li{
+  color: #236dc5;
+}
+.active{
+/* border: solid; */
+color: #B23C3A;
+border-bottom: solid 2px #b23c3a;
+}

@@ -1,0 +1,394 @@
+
+header::before {
+  content: "";
+  background-image: url(../../../../../assets/images/bgNew.jpeg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.60;
+}
+/* li a{
+  border-bottom: 1px solid white;
+  margin: 5px;
+} */
+
+header {
+  background-color: transparent;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+ul li a,
+.lan {
+  color: lightgoldenrodyellow;
+
+  /* font-size: 0.85em; */
+  text-decoration: none;
+  transition: color 300ms ease-out;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  position: relative;
+}
+
+.logo {
+  position: relative;
+}
+
+div .call {
+  position: relative;
+  border-radius: 50%;
+  color: black;
+  padding: 12px;
+  background-color: orange;
+}
+.callDiv{
+  margin-top: 2.5%;
+}
+.nav-item>a.active {
+  color: orange;
+}
+div .call:hover {
+  color: white;
+  border: solid 2px orange;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* .nav-item>.nav-link{
+  color: black;
+} */
+.nav-item>a:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.lan {
+  border-bottom: solid 1px lightgoldenrodyellow;
+}
+
+.lan:hover {
+  color: orange;
+  cursor: pointer;
+  border-bottom: solid 1px orange;
+}
+
+.ICPC2023-in-Egypt {
+  width: 433px;
+  height: 32px;
+  /* margin: 0 591px 40px 4px; */
+
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  color: #fff;
+  position: relative;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1260px) {
+  ul li a{
+    font-size: 0.75rem;
+  }
+  /* ul li a{
+    color: red;
+        } */
+}
+@media only screen and (min-width: 1200px) {
+  ul li{
+    font-size: 0.8em;
+  }
+  /* .nav-item{
+    border-right: 1px solid whitesmoke;
+    margin: 7px 5px 0px 5px;
+  }
+  .nav-item:last-child{
+    border: 0;
+  } */
+  .carouselP {
+    font-style: italic;
+    color: white;
+    font-size: 22px;
+  }
+
+  .carouselH4 {
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    width: fit-content;
+    color: #F7B942;
+    font-size: 18px;
+  }
+
+  .carouselH2 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 2%;
+    font-weight: bold;
+
+  }
+  .paddingDiv{
+    padding: 10% 0% 0% 10%;
+  }
+  .carouselP{
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: solid 3px #F7B942; */
+    animation: animated-text 3s steps(50, end) 1s 1 normal both,
+    animated-cursor 600ms steps(50, end) infinite;
+  }
+}
+
+@media screen and (max-width: 1096px) {
+  #logoBlock {
+    width: 80%;
+  }
+
+  #logoBlockDiv {
+    width: 300px;
+  }
+
+  ul li{
+    font-size: 0.8em;
+  }
+  .nav-item{
+    border-right: 1px solid whitesmoke;
+    margin: 7px 5px 0px 5px;
+  }
+  .nav-item:last-child{
+    border: 0;
+  }
+  #coloredDiv,
+  header::before {
+    max-height: 750px;
+  }
+  .carouselP {
+    font-style: italic;
+    color: white;
+    font-size: 18px;
+  }
+
+  .carouselH4 {
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    width: fit-content;
+    color: #F7B942;
+    font-size: 18px;
+  }
+
+  .carouselH2 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 2%;
+    font-weight: bold;
+
+  }
+  
+  .paddingDiv{
+    padding: 10% 0% 0% 10%;
+  }
+  /* .carouselP{
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: solid 3px greenyellow;
+    animation: animated-text 4s steps(50, end) 1s 1 normal both,
+    animated-cursor 600ms steps(50, end) infinite;
+  } */
+}
+
+@media (min-width: 992px) and (max-width: 1076px) {
+  #logoBlockDiv {
+    width: 300px;
+  }
+  .nav-item{
+    border:0;
+  }
+  #logoBlock {
+    width: 80%;
+  }
+
+  ul li{
+    font-size: 0.6em;
+  }
+
+  #coloredDiv,
+  header::before {
+    max-height: 500px;
+  }
+
+  /* .call,.lan{
+    visibility: hidden;
+  } */
+  .nav-item{
+    margin: 0;
+  }
+  .carouselP {
+    font-style: italic;
+    color: white;
+    font-size: 18px;
+  }
+
+  .carouselH4 {
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    width: fit-content;
+    color: #F7B942;
+    font-size: 18px;
+  }
+
+  .carouselH2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 5%;
+    font-weight: bold;
+
+  }  
+  .paddingDiv{
+    padding: 2% 0% 0% 10%;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+  #logoBlock {
+    width: 80%;
+  }
+
+  ul li{
+    font-size: 0.8em;
+  }
+
+  .nav-item{
+    border:0;
+  }
+  #logoBlockDiv {
+    width: 300px;
+  }
+
+  #coloredDiv,
+  header::before {
+    max-height: 500px;
+  }
+
+  /* .call,
+  .lan {
+    visibility: hidden;
+  } */
+  .carouselP {
+    font-style: italic;
+    color: white;
+    font-size: 14px;
+  }
+
+  .carouselH4 {
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    width: fit-content;
+    color: #F7B942;
+    font-size: 14px;
+  }
+
+  .carouselH2 {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 5%;
+    font-weight: bold;
+
+  }  
+  
+  .paddingDiv{
+    padding: 8% 0% 0% 10%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  #logoBlock {
+    width: 80%;
+  }
+
+  ul li{
+    font-size: 0.8em;
+  }
+
+  .nav-item{
+    border:0;
+  }
+  #logoBlockDiv {
+    width: 250px;
+  }
+
+  #coloredDiv,
+  header::before {
+    max-height: 500px;
+  }
+
+  .call,
+  .lan {
+    visibility: hidden;
+  }
+
+  .carouselP {
+    font-style: italic;
+    color: white;
+    font-size: 12px;
+    /* visibility: hidden; */
+  }
+
+  .carouselH4 {
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    width: fit-content;
+    color: #F7B942;
+    font-size: 12px;
+    /* visibility: hidden; */
+  }
+
+  .carouselH2 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 5%;
+    font-weight: bold;
+
+  }
+  
+  .paddingDiv{
+    padding: 12% 0% 0% 10%;
+    margin-right: 5px;
+  }
+}
+/* .carouselP{
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: solid 3px greenyellow;
+  animation: animated-text 4s steps(50, end) 1s 1 normal both,
+  animated-cursor 600ms steps(50, end) infinite;
+} */
+
+@keyframes animated-text{
+  0% {
+    width: 0;
+  }
+  to {
+    width: 900px;
+  }
+}
+@keyframes animated-cursor{
+  from {
+    border-right-color: #F7B942;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+.img-wrapper {display:inline-block; width:120px; overflow:hidden;}
+  .img-wrapper img {width:120px;}

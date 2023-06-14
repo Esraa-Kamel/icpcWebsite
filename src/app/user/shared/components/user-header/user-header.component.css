@@ -1,0 +1,238 @@
+/* header::before {    
+  content: "";
+  background-image: url(../../../../../assets/images/main-bg.jpeg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+} */
+header{
+  background-color: transparent; 
+}
+li{
+  display: inline-block;
+  text-transform: uppercase;
+}
+ul li a, .lan {
+    color: lightgoldenrodyellow;
+    
+  /* font-size: 14px; */
+    text-decoration: none;
+    transition: color 300ms ease-out;
+    font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  position: relative;
+}
+.logo{
+  position: relative;
+}
+.callDiv{
+  margin-top: 2.5%;
+}
+div .call{
+  position: relative;
+  border-radius: 50%;
+  color: black;
+  padding: 12px;
+  background-color: orange;
+}
+.nav-item>a.active{
+  color: orange;
+}
+div .call:hover{
+  color: white;
+  border: solid 2px orange;
+  background-color: transparent;
+  cursor: pointer;
+}
+.nav-item>a:hover{
+color: orange;
+cursor: pointer;
+}
+.lan{
+  border-bottom: solid 1px lightgoldenrodyellow;
+}
+.lan:hover{
+  color: orange;
+  cursor: pointer;
+  border-bottom: solid 1px orange;
+}
+/* 
+.ICPC{
+  color: #FFFFFF;
+  
+  font-size: 48px;
+  line-height: 32px;
+  position: relative;
+}
+.the-2023-icpc-world {
+  color: #F7B942;
+  
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  width: 100%;
+  position: relative;
+} */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+ul li a{
+  font-size: 0.8rem;
+}
+/* Media Queries */
+@media only screen and (max-width: 1260px) {
+  ul li a{
+    font-size: 0.75rem;
+  }
+  /* ul li a{
+    color: red;
+        } */
+        
+}
+@media only screen and (max-width: 1200px) {
+  .ICPC{
+    color: #FFFFFF;
+    
+    font-size: 48px;
+    line-height: 32px;
+    position: relative;
+  }
+  .the-2023-icpc-world {
+    color: #F7B942;
+    
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+    width: 100%;
+    position: relative;
+  }
+  ul li{
+    font-size: 0.8em;
+  }
+  
+}
+
+@media screen and (max-width: 1096px) {
+  #logoBlock{
+    width: 80%;
+  }
+  #logoBlockDiv{
+    width: 300px;
+  }
+  ul li{
+    font-size: 0.8em;
+  }
+  #coloredDiv,header::before{
+    max-height: 750px;
+  }
+}
+@media (min-width: 992px) and  (max-width: 1076px){
+  #logoBlockDiv{
+    width: 300px;
+  }
+  #logoBlock{
+    width: 80%;
+  }
+  ul li{
+    font-size: 0.6em;
+  }
+  #coloredDiv,header::before{
+    max-height: 500px;
+  }
+  /* .call,.lan{
+    visibility: hidden;
+  } */
+  .ICPC{
+    font-size: 36px;
+  }
+  .the-2023-icpc-world{
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #logoBlock{
+    width: 80%;
+  }
+  ul li{
+    font-size: 0.85em;
+  }
+  #logoBlockDiv{
+    width: 300px;
+  }
+  #coloredDiv,header::before{
+    max-height: 500px;
+  }
+  .call,.lan{
+    visibility: hidden;
+  }
+  .ICPC{
+    font-size: 32px;
+  }
+  .the-2023-icpc-world{
+    font-size: 24px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {  
+
+#logoBlock{
+  width: 80%;
+}
+ul li{
+  font-size: 0.8em;
+}
+#logoBlockDiv{
+  width: 250px;
+}
+#coloredDiv,header::before{
+  max-height: 500px;
+}
+
+.call,.lan{
+  visibility: hidden;
+}
+.ICPC{
+  font-size: 32px;
+}
+.the-2023-icpc-world{
+  font-size: 20px;
+}
+}
+.img-wrapper {display:inline-block; width:120px; overflow:hidden;}
+  .img-wrapper img {width:120px;}

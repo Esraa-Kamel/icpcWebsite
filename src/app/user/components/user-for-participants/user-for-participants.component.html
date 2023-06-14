@@ -1,0 +1,40 @@
+<app-user-header></app-user-header>
+<div class="container mt-4 mb-4">
+  <span class="Homepage">
+    Homepage /
+  </span>
+
+  <span class="For-participants">
+    For participants
+  </span>
+</div>
+  <div class="row bg-light p-0 m-0 mb-3">
+    <ul class="col-12 text-center m-0 p-3">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive='active visited' [routerLink]="['/For-Participants/Visa-Information']">Visa Information</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive='active' [routerLink]="['/For-Participants/Transportation-Information']">Transportation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive='active' [routerLink]="['/For-Participants/Safety-Measures']">Safety & Security Measures</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" routerLinkActive='active' [routerLink]="['/For-Participants/Brochure']">Brochure</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive='active' [routerLink]="['/For-Participants/Pocket-Guide']">Pocket Guide</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive='active' [routerLink]="['/For-Participants/Host']">Host</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" routerLinkActive='active' [routerLink]="['/For-Participants/Call-For-Help']">Call For Help</a>
+      </li> -->
+    </ul>
+  </div>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+
+

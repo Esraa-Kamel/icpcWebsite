@@ -1,0 +1,13 @@
+.Homepage {
+  font-size: 16px;
+  line-height: 1.71;
+  color: #bfbfbf;
+}
+.For-participants {
+  font-size: 16px;
+  line-height: 1.71;
+  color: #343433;
+  font-weight: bold;
+}
+.img-wrapper {display:inline-block; height:110px; overflow:hidden;}
+  .img-wrapper img {height:110px;}

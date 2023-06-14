@@ -1,0 +1,44 @@
+h3{
+  font-size: 26px;
+  line-height: 21px;
+  font-family: 'montserratbold','Noto Sans TC';
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin: 3% 0 7% 0;
+}
+
+li{
+  font-size: 1rem;
+  display: inline-block;
+  padding: 7px;
+}
+ul li a i{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 300ms ease-out;
+}
+
+/* @media screen and (max-width: 1096px) {
+  #logoBlock{
+    width: 80%;
+  }
+}
+@media (min-width: 992px) and  (max-width: 1076px){
+  #logoBlock{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #logoBlock{
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {  
+
+#logoBlock{
+  width: 100%;
+}
+} */

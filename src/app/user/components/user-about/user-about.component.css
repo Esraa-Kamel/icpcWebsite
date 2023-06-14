@@ -1,0 +1,62 @@
+
+.About-International {
+  
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #323333;
+}
+.The-International-Co {
+  
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #323333;
+  /* text-align: justify; */
+  /* text-justify: inter-word; */
+}
+
+.Homepage {
+  font-size: 16px;
+  line-height: 1.71;
+  color: #bfbfbf;
+}
+.For-participants {
+  font-size: 16px;
+  line-height: 1.71;
+  color: #343433;
+  font-weight: bold;
+}
+.Want-to-know-more {
+  width: 169px;
+  height: 32px;
+  margin: 17px 8px 1px 0;
+  
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: #323333;
+}
+.Click-here {
+  width: 102px;
+  height: 32px;
+  margin: 18px 8px 0 8px;
+  
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #236dc5;
+}
+

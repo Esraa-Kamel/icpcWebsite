@@ -1,0 +1,29 @@
+div .call{
+  border-radius: 50%;
+  color: black;
+  padding: 10px;
+  background-color: orange;
+}
+div .call:hover{
+  color: white;
+  border: solid 2px orange;
+  background-color: transparent;
+  cursor: pointer;
+}
+.lan {
+  border-bottom: solid 1px lightgoldenrodyellow;
+  color: lightgoldenrodyellow;
+  
+font-size: 16px;
+  text-decoration: none;
+  transition: color 300ms ease-out;
+  font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+}
+.lan:hover{
+  color: orange;
+  cursor: pointer;
+  border-bottom: solid 1px orange;
+}

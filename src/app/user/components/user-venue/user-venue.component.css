@@ -1,0 +1,46 @@
+
+.About-International {
+  
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #323333;
+}
+.The-International-Co {
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #323333;
+  /* text-align: justify;
+  text-justify: inter-word; */
+}
+.FOR-PARTICIPANTSHeader {
+  font-size: 30px;
+  font-weight: bold;
+  color: #323333;
+}
+.H5Torinto {
+  font-size: 22px;
+  font-weight: bold;
+  color: #b23c3a;
+}
+.Homepage {
+  font-size: 16px;
+  line-height: 1.71;
+  color: #bfbfbf;
+}
+.For-participants {
+  font-size: 16px;
+  line-height: 1.71;
+  color: #343433;
+  font-weight: bold;
+
+}
+
+.img-wrapper {display:inline-block; width:100%; overflow:hidden; margin-bottom: 4%;}
+  .img-wrapper img {width:100%;}
